@@ -1,0 +1,7 @@
+{
+  "name": "yande-re-img-viewer",
+  "version": "1.0.0",
+  "devDependencies": {
+    "viewerjs": "^1.11.2"
+  }
+}
