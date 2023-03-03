@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         yande.re quick image viewer
 // @namespace    https://github.com/MRGRD56
-// @version      1.0
+// @version      1.1
 // @author       MRGRD56
 // @match        https://yande.re/post
 // @match        https://yande.re/post?*
@@ -12,6 +12,15 @@
 
 (function() {
     'use strict';
+
+    const scriptCss = document.createElement('style');
+    scriptCss.innerHTML = `
+    #post-list-posts .preview {
+        cursor: zoom-in;
+    }
+    `;
+
+    document.head.append(scriptCss);
 
     const viewerCss = document.createElement('link');
     viewerCss.setAttribute('rel', 'stylesheet')
