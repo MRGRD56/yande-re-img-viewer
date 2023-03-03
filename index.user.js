@@ -4,6 +4,8 @@
 // @version      1.0
 // @author       MRGRD56
 // @match        https://yande.re/post
+// @match        https://yande.re/post?*
+// @match        https://yande.re/post/?*
 // @icon         https://yande.re/favicon.ico
 // @grant        none
 // ==/UserScript==
