@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         yande.re quick image viewer
 // @namespace    https://github.com/MRGRD56
-// @version      1.1
+// @version      1.2
 // @author       MRGRD56
 // @match        https://yande.re/post
 // @match        https://yande.re/post?*
@@ -48,7 +48,7 @@
                     .parentElement
                     .parentElement
                     .parentElement
-                    .querySelector('.directlink.largeimg')
+                    .querySelector('.directlink')
                     .href
                     .replace('https://files.yande.re/image/',
                         'https://files.yande.re/sample/');
